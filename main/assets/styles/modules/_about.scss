@@ -1,0 +1,30 @@
+.about {
+    margin-top: -3px;
+    padding: 2.8rem 0;
+    width: 100%;
+    background-color: #edc12c;
+    background-image: linear-gradient(to bottom, rgba(#eb4630,1), rgba(255,255,255,0));
+    text-align: center;
+
+    p {
+        color: #333;
+        font-size: 1.6rem;
+        line-height: 1.6;
+        margin: 2rem 0;
+    }
+
+    &__img-container {
+        height: 325px;
+    }
+
+    &__img {
+        height: 100%;
+        display: inline;
+        margin-right: 10px;
+        border-radius: 10px;
+
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+}
