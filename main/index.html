@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Lato:400,100,300,500,700" rel="stylesheet" type='text/css'>
 
-    <link rel="stylesheet" href="temp/styles/styles.css" />
+    <link rel="stylesheet" href="temp/styles.css" />
 </head>
 
 <body>
@@ -26,7 +26,7 @@
         </div>
     </header>
     
-    <img class="head__large-img" src="assets/images/TI-banner.jpg" alt="Tame Impala artwork">
+    <img class="head__large-img" src="assets/images/TI-banner-3.jpg" alt="Tame Impala artwork">
 
     <div class="about">
         <div class="wrapper">
@@ -42,11 +42,21 @@
 
     <div class="music">
         <div class="wrapper">
-            <div class="album-container">
-                <div class="album">
-                    <img src="assets/images/TI-currents.jpg" alt="Currents Album Artwork" class="album__artwork">
-                    <h3 class="album__title">Currents</h3>
-                        <!-- <ol class="album__songlist">
+            <div class="album">
+                    <div class="album__title-wrapper">
+                        <h3 class="album__title">Currents</h3>
+                        <nav class="album__nav">
+                            <ul>
+                                <li>Songlist</li>
+                                <li>Lyrics</li>
+                                <li>Purchase</li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="album__flex-container">
+                        <img src="assets/images/TI-currents.jpg" alt="Currents Album Artwork" class="album__artwork">
+                    
+                        <ol class="album__songlist">
                             <li>Let It Happen</li>
                             <li>Nangs</li>
                             <li>The Moment</li>
@@ -60,47 +70,53 @@
                             <li>Reality In Motion</li>
                             <li>Love/Paranoia</li>
                             <li>New Person, Same Old Mistakes</li>
-                        </ol> -->
-                        <div class="album__spotify">
-                            <iframe src="https://open.spotify.com/embed?uri=spotify:album:79dL7FLiJFOO0EoehUHQBv" width="320" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-                        </div>
-                </div>
+                        </ol>
+                            <!-- <div class="album__spotify">
+                                <iframe src="https://open.spotify.com/embed?uri=spotify:album:79dL7FLiJFOO0EoehUHQBv" width="320" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                            </div> -->
+                    </div>
+            </div>
 
-                <div class="album">
+            <div class="album">
+                <h3 class="album__title">Lonerism</h3>
+                <div class="album__flex-container">
                     <img src="assets/images/TI-lonerism.jpg" alt="Lonerism Album Artwork" class="album__artwork">
-                    <h3 class="album__title">Lonerism</h3>
-                        <ol class="album__songlist">
-                            <li>Be Above It</li>
-                            <li>Endors Toi</li>
-                            <li>Apocalypse Dreams</li>
-                            <li>Mind Mischief</li>
-                            <li>Music To Walk Home By</li>
-                            <li>Why Won't They Take To Me?</li>
-                            <li>Feels Like We Only Go Backwards</li>
-                            <li>Keep On Lying</li>
-                            <li>Elephant</li>
-                            <li>She Just Won't Believe Me</li>
-                            <li>Nothing That Has Happened So Far Has Been Anything We Could Control</li>
-                            <li>Sun's Coming Up</li>
-                        </ol>
-                </div>
 
-                <div class="album">
+                    <ol class="album__songlist">
+                        <li>Be Above It</li>
+                        <li>Endors Toi</li>
+                        <li>Apocalypse Dreams</li>
+                        <li>Mind Mischief</li>
+                        <li>Music To Walk Home By</li>
+                        <li>Why Won't They Take To Me?</li>
+                        <li>Feels Like We Only Go Backwards</li>
+                        <li>Keep On Lying</li>
+                        <li>Elephant</li>
+                        <li>She Just Won't Believe Me</li>
+                        <li>Nothing That Has Happened So Far Has Been Anything We Could Control</li>
+                        <li>Sun's Coming Up</li>
+                    </ol>
+                </div>
+            </div>
+
+            <div class="album">
+                <h3 class="album__title">InnerSpeaker</h3>
+                <div class="album__flex-container">
                     <img src="assets/images/TI-innerspeaker.jpg" alt="InnerSpeaker Album Artwork" class="album__artwork">
-                    <h3 class="album__title">InnerSpeaker</h3>
-                        <ol class="album__songlist">
-                            <li>It Is Not Meant To Be</li>
-                            <li>Desire Be Desire Go</li>
-                            <li>Alter Ego</li>
-                            <li>Lucidity</li>
-                            <li>Why Won't You Make Up Your Mind?</li>
-                            <li>Solitude Is Bliss</li>
-                            <li>Jeremy's Storm</li>
-                            <li>Expectation</li>
-                            <li>The Bold Arrow Of Time</li>
-                            <li>Runway Houses City Clouds</li>
-                            <li>I Don't Really Mind</li>
-                        </ol>
+
+                    <ol class="album__songlist">
+                        <li>It Is Not Meant To Be</li>
+                        <li>Desire Be Desire Go</li>
+                        <li>Alter Ego</li>
+                        <li>Lucidity</li>
+                        <li>Why Won't You Make Up Your Mind?</li>
+                        <li>Solitude Is Bliss</li>
+                        <li>Jeremy's Storm</li>
+                        <li>Expectation</li>
+                        <li>The Bold Arrow Of Time</li>
+                        <li>Runway Houses City Clouds</li>
+                        <li>I Don't Really Mind</li>
+                    </ol>
                 </div>
             </div>
         </div>
@@ -120,6 +136,6 @@
     <div id="Contact">
         
     </div>
-
+    <script src="assets/js/app.js"></script>
 </body>
 </html>

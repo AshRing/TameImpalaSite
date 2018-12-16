@@ -1,50 +1,78 @@
 .music {
     padding: 3rem 0;
-    background: bottom url('../../assets/images/TI-live-2.jpg');
+    background: bottom url('../assets/images/TI-live-2.jpg');
     background-size: cover;
-    width: 100%;    
+    width: 100%;
+    text-align: center;
 }
 
-.album-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
 
 .album {
-    background: linear-gradient(to bottom, rgba(#fff,1) 20%, rgba(0,0,0,0) 100%);
-    padding: 2.5rem;
+    background: linear-gradient(to right, rgba(#000,1) 30%, rgba(rgb(167, 167, 167),.3) 100%);
+    padding: 1.2rem 2rem 2rem 2rem;
     border-radius: 5px;
-    width: 33%;
-    text-align: center;
-    margin-right: 2rem;
+    width: 100%;
     color: #000;
+    display: inline-block;
+    margin-bottom: 2rem;
+    color: rgb(226, 226, 226);
 
     &:last-child {
         margin-right: 0;
     }
 
+    &__flex-container {
+        display: flex;
+        flex-direction: row;
+    }
+
     &__artwork {
-        width: 100%;
+        width: 20rem;
+        height: 20rem;
+    }
+
+    &__title-wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 1rem;
+        font-family: Microgramma;
+        text-transform: uppercase;
     }
 
     &__title {
-        text-shadow: 1px 2px 2px #fff;
-        font-family: Microgramma;
-        text-transform: uppercase;
+        //text-shadow: 1px 2px 2px #eee;
         font-size: 2rem;
     }
 
+    &__nav {
+        ul { 
+
+        }
+
+        li {
+            list-style-type: none;
+            display: inline-block;
+            padding: 0 1.5rem;
+            font-size: 1.5rem;
+            font-weight: 400;
+            
+        }
+    }
+
     &__songlist {
-        font-size: 1.2rem;
-        font-weight: 500;
         text-align: left;
-        padding: .7rem 0;
+        padding: 0 1rem;
+        margin-left: 2rem;
         line-height: 1.3;
+        font-size: 1.1rem;
+        width: 100%;
+        
 
         & li {
+            padding-left: .7rem;
             list-style: numbers;
-            list-style-position: inside;
+            list-style-position: outside;
         }
     }
 }

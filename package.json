@@ -1,8 +1,14 @@
 {
   "name": "tameimpala",
   "version": "1.0.0",
+  "scripts": {
+    "build-css": "node-sass --include-path scss main/assets/styles/styles.scss   main/temp/styles.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
   "dependencies": {
     "jquery": "^3.3.1",
+    "node-sass": "^4.9.0",
+    "nodemon": "^1.17.5",
     "normalize.css": "^8.0.0"
   },
   "devDependencies": {

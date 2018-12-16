@@ -2,8 +2,8 @@
     margin-top: -3px;
     padding: .7rem 0;
     width: 100%;
-    background-color: #edc12c;
-    background-image: linear-gradient(to bottom, rgba(#eb4630,1), rgba(255,255,255,0));
+    background-color: rgb(110, 110, 110);
+    background-image: linear-gradient(to bottom right, rgba(rgb(32, 32, 32),1), rgba(255,255,255,0));
     text-align: center;
 
     @include small {
@@ -15,7 +15,7 @@
     }
 
     p {
-        color: #333;
+        color: rgb(255, 255, 255);
         font-size: 1.4rem;
         line-height: 1.6;
         margin: 1.5rem 2rem;

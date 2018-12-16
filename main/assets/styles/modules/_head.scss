@@ -7,7 +7,7 @@
 
     @include small {
         position: absolute;
-        background-color: rgba(#ff8777, .5);
+        background-color: rgba(#444, .5);
     }
 
     @include medium {
@@ -16,18 +16,17 @@
     }
 
     &__title {
-        font-family: Microgramma;
+        font-family: Microgramma, Arial;
         color: #fff;
         letter-spacing: 2px;
         display: inline-block;
         font-size: 2.4rem;
-        text-shadow: 2px 1px 2px #eb4630;
+        text-shadow: 2px 1px 2px #000;
         padding: 0 .5rem .5rem .5rem;
         margin-bottom: .3rem;
         border-bottom: 2px solid #fff;
 
         @include medium {
-            text-shadow: 2px 1px 2px #eb4630;
             margin-left: 15px;
             border-bottom: none;
             font-size: 2.8rem;
