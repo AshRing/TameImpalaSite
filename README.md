@@ -1,3 +1,5 @@
 # Tame Impala Site
 
-Practice website made for the band Tame Impala to strengthen my CSS and HTML.
+Practice website made for one of my favorite bands, Tame Impala, to strengthen my CSS and HTML.
+
+## View at: https://ashring.github.io/TameImpalaSite/
